@@ -18,7 +18,6 @@ def main(page):
             ft.Text(
                 f"Key: {e.key}, Shift: {e.shift}, Control: {e.ctrl}, Alt: {e.alt}, Meta: {e.meta}"
             )
-            
         )
 
     page.on_keyboard_event = on_keyboard
